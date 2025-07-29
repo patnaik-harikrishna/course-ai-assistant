@@ -1,0 +1,37 @@
+We offer a variety of online software development courses tailored for all levels.
+
+**Programming Languages:**
+- Python for Beginners
+- Advanced Python (with Projects)
+- Java Fundamentals
+- Java Spring Boot for Web Developers
+- Full-Stack Web Development with JavaScript
+
+**Cloud & DevOps:**
+- AWS Certified Developer – Associate
+- DevOps with Docker and Kubernetes
+- CI/CD Pipelines with Jenkins
+
+**Data & AI:**
+- Machine Learning with Python (scikit-learn)
+- Deep Learning with TensorFlow
+- Data Analysis with Pandas
+- ChatGPT API Integration for Developers
+
+**Certifications:**
+All major courses come with completion certificates.
+We also offer exam prep for:
+- AWS
+- Google Cloud
+- Microsoft Azure
+
+**Learning Format:**
+- 100% online and self-paced
+- Video lectures, quizzes, and hands-on projects
+- Community support via Slack and weekly live sessions
+
+**Pricing:**
+- Free tier available for beginner courses
+- Subscription plans start at $29/month
+
+For enterprise or bulk enrollments, contact training@whizgentech.com

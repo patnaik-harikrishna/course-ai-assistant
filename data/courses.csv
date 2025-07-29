@@ -1,0 +1,6 @@
+title,category,level,duration,certification,price,description
+Python for Beginners,Programming,Beginner,4 weeks,Yes,Free,An introductory course to Python programming with hands-on examples.
+Advanced Python,Programming,Intermediate,6 weeks,Yes,$49,Deep dive into object-oriented and functional programming using Python.
+Machine Learning,Data Science,Intermediate,8 weeks,Yes,$99,Covers supervised and unsupervised learning techniques using scikit-learn.
+AWS Certified Developer,Cloud,Intermediate,5 weeks,Yes,$129,Prepares you for the AWS Developer Associate certification with projects.
+DevOps with Kubernetes,DevOps,Advanced,6 weeks,Yes,$149,"Teaches CI/CD with Docker, Kubernetes, Jenkins and GitHub Actions"
