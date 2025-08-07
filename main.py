@@ -82,11 +82,18 @@ class QueryRequest(BaseModel):
 async def ask_question(request: QueryRequest):
     try:
         question = request.question
+        print("Received question:", question)
+
         nodes = retriever.retrieve(question)
+        print(f"Retrieved {len(nodes)} nodes")
+
         contexts = [node.get_content() for node in nodes]
+        print("Contexts prepared")
 
         # Always use software courses prompt
         prompt = software_courses_prompt
+        print("Prompt loaded")
+
         prompt_type = "software_courses"
 
         print(f"Selected prompt type: {prompt_type}")
@@ -97,7 +104,10 @@ async def ask_question(request: QueryRequest):
             text_qa_template=prompt
         )
 
+        print("Query engine ready. Sending query...")
         response = custom_query_engine.query(question)
+
+        print("Response received")
 
         return {
             "answer": str(response),
